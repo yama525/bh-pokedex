@@ -1,0 +1,22 @@
+body{
+  text-align: center;
+}
+li{
+  list-style: none;
+}
+
+.poke-wrapper{
+  margin: 0 auto;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.poke-img{
+  width: 150px;
+}
+.gridList{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}

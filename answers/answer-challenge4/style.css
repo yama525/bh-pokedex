@@ -1,0 +1,79 @@
+body{
+  text-align: center;
+}
+
+.indexFooter{
+  height: 100px;
+  position: relative;
+}
+.indexFooter .footerInner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.show-header{
+  height: 100px;
+  background-color: #f8fb17;
+  color: white;
+  position: relative;
+}
+.show-header .inner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.wrapper{
+  margin: 20px;
+}
+
+.poke-wrapper{
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.poke-img{
+  width: 200px;
+}
+.gridList{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.logo{
+  width: 300px;
+  margin: 0 auto;
+}
+.pokemonName{
+  font-size: 44px;
+  font-family: 'Cherry Bomb One', cursive;
+  color: rgb(81, 73, 73);
+}
+
+.paginationCursor{
+  font-size: 24px;
+  padding: 4px 10px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+.paginationCursor:hover{
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+#name{
+  font-size: 44px;
+  font-family: 'Cherry Bomb One', cursive;
+}
+#englishName{
+  font-size: 16px;
+  color: rgb(231, 231, 231);
+}
+#weight{
+  margin-top: 20px;
+}
+
