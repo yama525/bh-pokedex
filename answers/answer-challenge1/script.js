@@ -16,7 +16,7 @@ async function fetchData() {
   }catch(e){
     // データ取得に失敗した場合
     console.log(e)
-    $("#pokemonList").html("ポケモンデータを取得できませんでした。");
+    $("#pokemon").html("ポケモンデータを取得できませんでした。");
   }
 }
 
